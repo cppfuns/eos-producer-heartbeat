@@ -1,0 +1,57 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "hbstruct",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "metadata_json",
+                    "type": "string"
+                },
+                {
+                    "name": "timestamp",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "heartbeat",
+            "base": "",
+            "fields": [
+                {
+                    "name": "_user",
+                    "type": "name"
+                },
+                {
+                    "name": "_metadata_json",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "heartbeat",
+            "type": "heartbeat",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "hbstruct",
+            "type": "hbstruct",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
